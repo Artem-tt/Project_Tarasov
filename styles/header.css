@@ -1,4 +1,10 @@
 .header{
-    display: flex
+    display: flex;
+    justify-content: start;
+}
+.header__list{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
     
 }
