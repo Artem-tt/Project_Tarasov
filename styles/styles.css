@@ -1,0 +1,14 @@
+@import "base.css";
+/*подключение основных стилей*/
+
+@import "footer.css";
+/*подключение стилей относящихся к footer*/
+
+@import "header.css";
+/*подключение стилей относящихся к header*/
+
+@import "main.css";
+/*подключение стилей относящихся к main*/
+
+@import "normalize.css";
+/*подключение стилей относящихся к normalize*/
