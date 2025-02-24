@@ -1,41 +1,39 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/normalize.css">
-    <link rel="stylesheet" href="./styles/styles.css">
     <title>сайт по изучению обществознания</title>
 </head>
 
 <body>
-    <header class="header container">
-        <img class="header__logo" src="./images/logo.jpg" width="50" height="64" alt="логотип">
+    <header class="header">
+        <img class="header__logo" src="./images/logo.jpg" width="50" height="50" alt="логотип">
         <nav class="header__menu">
-            <ul class="header__list">
-                <li class="header__item"><a class="header__link" href="#">регистрация</a></li>
-                <li class="header__item"><a class="header__link" href="#">вход</a></li>
-                <li class="header__item"><a class="header__link" href="#">уроки</a></li>
-                <li class="header__item"><a class="header__link" href="#">тесты</a></li>
-                <li class="header__item"><a class="header__link" href="#">конструктор</a></li>
-                <li class="header__item"><a class="header__link" href="#">домашнее задание</a></li>
+            <ul class="head__list">
+                <li class="header__item"><a class="header__link">регистрация</a></li>
+                <li class="header__item"><a class="header__link">вход</a></li>
+                <li class="header__item"><a class="header__link">уроки</a></li>
+                <li class="header__item"><a class="header__link">тесты</a></li>
+                <li class="header__item"><a class="header__link">конструктор</a></li>
+                <li class="header__item"><a class="header__link">домашнее задание</a></li>
             </ul>
         </nav>
     </header>
-    <main class="main container">
+    <main class="main">
         <section class="content">
-            <img src="./images/image 1.jpg" width="300" height="300" alt="Артем украл картинку">
+            <img class="content__img" src="" alt="Девушка с книгой">
             <h1 class="content__title">онлайн курсы по изучению обществознания</h1>
             <p class="content__text">данный сайт преднгазначен для изучения обществознания и подготовки к ЕГЭ</p>
-            <img class="content__img" src="./images/images.jpg" width="300" height="300" alt="Девушка с книгой">
+            <img class="content__img" src="" alt="Девушка с книгой">
         </section>
         <section class="desc">
             <h2 class="desc__title">наши преимущества</h2>
-            <ol class="desc__list">
-                <li class="desc__item">сайт бесплатный</li>
-                <li class="desc__item">сайт общедоступный</li>
-            </ol>
+            <ul class="desc__list">
+                <li class="desc__item">1. сайт бесплатный</li>
+                <li class="desc__item">2. сайт общедоступный</li>
+                </ui>
         </section>
         <section class="best">
             <div class="best__wrapper">
@@ -49,20 +47,24 @@
                 Qui, eveniet quae, nihil deserunt fugiat dolor inventore aut iure dicta rerum voluptate, blanditiis temporibus magnam iusto laboriosam laborum velit molestiae dolore. Praesentium illo quae odio, aut cupiditate corrupti perferendis.
                 Fugit perspiciatis tenetur totam, officia odio, laboriosam iure optio a, explicabo tempore cupiditate ipsam blanditiis! Eum laudantium id eos non autem. Nesciunt vel ut aliquid cum tempora hic. Sunt, provident.
             </p>
-            <button class="best__button" type="button">
+            <button class="best__button">
                 все преподаватели
             </button>
             </div>
             <ul class="best__card">
-                <li class="best__item"><img src="images/1.jpg" alt="фото преподавателя" class="best__img"></li>
-                <li class="best__item"><img src="images/2.jpg" alt="фото преподавателя" class="best__img"></li>
-                <li class="best__item"><img src="images/3.jpg" alt="фото преподавателя" class="best__img"></li>
-                <li class="best__item"><img src="images/4.jpg" alt="фото преподавателя" class="best__img"></li>
-                <li class="best__item"><img src="images/5.png" alt="фото преподавателя" class="best__img"></li>
-                <li class="best__item"><img src="images/6.jpg" alt="фото преподавателя" class="best__img"></li>
+                <li class="best__item"><img src="" alt="" class="best__img"></li>
+                <li class="best__item"><img src="" alt="" class="best__img"></li>
+                <li class="best__item"><img src="" alt="" class="best__img"></li>
+                <li class="best__item"><img src="" alt="" class="best__img"></li>
+                <li class="best__item"><img src="" alt="" class="best__img"></li>
+                <li class="best__item"><img src="" alt="" class="best__img"></li>
             </ul>
         </section>
-        
+        <form action="/">
+            <h1>Вход в личный кабинет</h1>
+            <input type="tel" name="phone" placeholder="Номер телефона" required>
+            <input type="text" name="password" placeholder=""
+        </form>
         <section class="teme">
             <h2 class="title">основные темы</h2>
             <nav class="teme__menu">
@@ -77,17 +79,12 @@
     <footer class="footer">
         <nav class="footer__menu">
             <ul class="footer__list">
-                <li class="footer__item"><a class="footer__link" href="#">контакты</a></li>
-                <li class="footer__item"><a class="footer__link" href="#">поддержка</a></li>
-                <li class="footer__item"><a class="footer__link" href="#">соц.сети</a></li>
+                <li class="footer__item"><a class="footer__link">контакты</a></li>
+                <li class="footer__item"><a class="footer__link">поддержка</a></li>
+                <li class="footer__item"><a class="footer__link">соц.сети</a></li>
             </ul>
         </nav>
     </footer>
-    <form action="/">
-        <h1>Вход в личный кабинет</h1>
-        <input type="tel" name="phone" placeholder="Номер телефона" required>
-        <input type="text" name="password" placeholder="">
-    </form>
 </body>
 
 </html>
