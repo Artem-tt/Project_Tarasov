@@ -1,0 +1,49 @@
+.content {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+
+}
+.best__button{
+    padding: 10px 20px;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+.best__button{
+    transform: 0.3s ease-out;
+}
+.best__button:hover{
+    transform: scale(1.08);
+}
+.best__card{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.best__img{
+    width: 300px; 
+}
+.best__item {
+    transition: 0.3s ease-out;
+}
+
+.best__item:hover {
+    transform: scale(1.08);
+}
+.topic__list {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.topic__link{
+    padding: 10px 20px;
+    background-color: #979797;
+    border-radius: 15px;
+}
+.topic__item {
+    transition: 0.3s ease-out;
+}
+.topic__item:hover {
+    transform: scale(1.08);
+}
