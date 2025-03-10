@@ -1,77 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/styles.css">
     <title>сайт по изучению обществознания</title>
 </head>
 
 <body>
-    <header class="header">
-        <img class="header__logo" src="./images/logo.jpg" width="50" height="50" alt="логотип">
+    <header class="header container">
+        <img class="header__logo" src="./images/logo.jpg" width="50" height="64" alt="логотип">
         <nav class="header__menu">
-            <ul class="head__list">
-                <li class="header__item"><a class="header__link">регистрация</a></li>
-                <li class="header__item"><a class="header__link">вход</a></li>
-                <li class="header__item"><a class="header__link">уроки</a></li>
-                <li class="header__item"><a class="header__link">тесты</a></li>
-                <li class="header__item"><a class="header__link">конструктор</a></li>
-                <li class="header__item"><a class="header__link">домашнее задание</a></li>
+            <ul class="header__list">
+                <li class="header__item"><a class="header__link" href="#">регистрация</a></li>
+                <li class="header__item"><a class="header__link" href="#">вход</a></li>
+                <li class="header__item"><a class="header__link" href="#">уроки</a></li>
+                <li class="header__item"><a class="header__link" href="#">тесты</a></li>
+                <li class="header__item"><a class="header__link" href="#">конструктор</a></li>
+                <li class="header__item"><a class="header__link" href="#">домашнее задание</a></li>
             </ul>
         </nav>
     </header>
-    <main class="main">
+    <main class="main container">
         <section class="content">
-            <img class="content__img" src="" alt="Девушка с книгой">
-            <h1 class="content__title">онлайн курсы по изучению обществознания</h1>
-            <p class="content__text">данный сайт преднгазначен для изучения обществознания и подготовки к ЕГЭ</p>
-            <img class="content__img" src="" alt="Девушка с книгой">
+            <img src="./images/image 1.jpg" width="300" height="300" alt="Артем украл картинку">
+            <div class="content__wrap">
+                <h1 class="content__title">онлайн курсы по изучению обществознания</h1>
+                <p class="content__text">данный сайт преднгазначен для изучения обществознания и подготовки к ЕГЭ</p>
+            </div>
+
+            <img class="content__img" src="./images/images.jpg" width="300" height="300" alt="Девушка с книгой">
         </section>
         <section class="desc">
             <h2 class="desc__title">наши преимущества</h2>
-            <ul class="desc__list">
-                <li class="desc__item">1. сайт бесплатный</li>
-                <li class="desc__item">2. сайт общедоступный</li>
-                </ui>
+            <ol class="desc__list">
+                <li class="desc__item">сайт бесплатный</li>
+                <li class="desc__item">сайт общедоступный</li>
+            </ol>
         </section>
         <section class="best">
             <div class="best__wrapper">
                 <h2 class="best__title">Учитесь у лучших</h2>
-                <p class="bext__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quas delectus alias, praesentium magni ipsa reprehenderit amet veritatis incidunt voluptatum molestiae, cupiditate numquam. Quasi, atque voluptatum tempore fuga fugit dolorem.
-                Dolorem distinctio dolores corporis ea ex beatae numquam neque asperiores et harum, facilis optio maxime fuga soluta, praesentium laboriosam atque sapiente tenetur hic facere quasi doloremque? Suscipit, at? Tempora, in.
-                Itaque eius, natus accusamus, omnis culpa quae dolores est delectus iste doloremque beatae enim minima tempora accusantium unde laborum perferendis repudiandae reprehenderit, veniam commodi optio? Ullam exercitationem nam sequi asperiores.
-                Minima soluta eum asperiores, eius ipsam adipisci exercitationem laudantium quidem quos voluptas ipsum vitae doloribus commodi. Voluptatibus asperiores distinctio molestiae corrupti amet, beatae cum, accusamus suscipit neque, fugit necessitatibus ipsa.
-                Cumque harum quos error labore incidunt, commodi modi? Sit illo impedit aliquam labore? Maxime voluptatum libero delectus quae porro pariatur aut, blanditiis nobis qui voluptatem ducimus dolore sunt ea corrupti?
-                Veniam, saepe laudantium quis tempore incidunt laboriosam ullam! Fugit veritatis officiis temporibus fuga, exercitationem iure ea deserunt ab natus est illum expedita. Odio molestias eius officiis, error ratione itaque sapiente!
-                Qui, eveniet quae, nihil deserunt fugiat dolor inventore aut iure dicta rerum voluptate, blanditiis temporibus magnam iusto laboriosam laborum velit molestiae dolore. Praesentium illo quae odio, aut cupiditate corrupti perferendis.
-                Fugit perspiciatis tenetur totam, officia odio, laboriosam iure optio a, explicabo tempore cupiditate ipsam blanditiis! Eum laudantium id eos non autem. Nesciunt vel ut aliquid cum tempora hic. Sunt, provident.
-            </p>
-            <button class="best__button">
-                все преподаватели
-            </button>
+                <p class="bext__text">Наши преподаватели – профессионалы, которые добились успеха в своей области.
+                    Лид-дизайнеры известных студий, маркетологи крупнейших компаний, редакторы популярных медиа:
+                    получайте опыт из первых рук, в любое время.
+                    Кураторы курсов – наши лучшие выпускники, будут помогать и поддерживать вас на протяжении всего
+                    обучения.
+                </p>
+                <button class="best__button" type="button">
+                    все преподаватели
+                </button>
             </div>
             <ul class="best__card">
-                <li class="best__item"><img src="" alt="" class="best__img"></li>
-                <li class="best__item"><img src="" alt="" class="best__img"></li>
-                <li class="best__item"><img src="" alt="" class="best__img"></li>
-                <li class="best__item"><img src="" alt="" class="best__img"></li>
-                <li class="best__item"><img src="" alt="" class="best__img"></li>
-                <li class="best__item"><img src="" alt="" class="best__img"></li>
+                <li class="best__item"><img src="images/1.jpg" alt="фото преподавателя" class="best__img" width="300">
+                </li>
+                <li class="best__item"><img src="images/2.jpg" alt="фото преподавателя" class="best__img" width="300">
+                </li>
+                <li class="best__item"><img src="images/3.jpg" alt="фото преподавателя" class="best__img" width="300">
+                </li>
+                <li class="best__item"><img src="images/4.jpg" alt="фото преподавателя" class="best__img" width="300">
+                </li>
+                <li class="best__item"><img src="images/5.png" alt="фото преподавателя" class="best__img" width="300">
+                </li>
+                <li class="best__item"><img src="images/6.jpg" alt="фото преподавателя" class="best__img" width="300">
+                </li>
             </ul>
         </section>
-        <form action="/">
-            <h1>Вход в личный кабинет</h1>
-            <input type="tel" name="phone" placeholder="Номер телефона" required>
-            <input type="text" name="password" placeholder=""
-        </form>
-        <section class="teme">
-            <h2 class="title">основные темы</h2>
-            <nav class="teme__menu">
-                <ul class="teme__list">
-                    <li class="teme__item"><a class="teme__link">правоведенье</a></li>
-                    <li class="teme__item"><a class="teme__link">юриспруденция</a></li>
-                    <li class="teme__item"><a class="teme__link">экономика</a></li>
+
+        <section class="topic">
+            <h2 class="topic__title">основные темы</h2>
+            <nav class="topic__menu">
+                <ul class="topic__list">
+                    <li class="topic__item"><a class="topic__link">правоведенье</a></li>
+                    <li class="topic__item"><a class="topic__link">юриспруденция</a></li>
+                    <li class="topic__item"><a class="topic__link">экономика</a></li>
                 </ul>
             </nav>
         </section>
@@ -79,12 +83,19 @@
     <footer class="footer">
         <nav class="footer__menu">
             <ul class="footer__list">
-                <li class="footer__item"><a class="footer__link">контакты</a></li>
-                <li class="footer__item"><a class="footer__link">поддержка</a></li>
-                <li class="footer__item"><a class="footer__link">соц.сети</a></li>
+                <li class="footer__item"><a class="footer__link" href="#">контакты</a></li>
+                <li class="footer__item"><a class="footer__link" href="#">поддержка</a></li>
+                <li class="footer__item"><a class="footer__link" href="#">соц.сети</a></li>
             </ul>
         </nav>
     </footer>
+    <form action="/">
+        <h1>Вход в личный кабинет</h1>
+        <input type="tel" name="phone" placeholder="Номер телефона" required>
+        <input type="password" name="password" placeholder="Пароль" required>
+        <button>Войти</button>
+    </form>
 </body>
+</section>
 
 </html>

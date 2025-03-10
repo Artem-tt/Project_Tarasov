@@ -8,8 +8,3 @@
     gap: 20px;
     
 }
-.header__link{
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-}
